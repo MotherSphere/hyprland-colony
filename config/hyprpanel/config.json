@@ -1,0 +1,52 @@
+{
+  "bar.customModules.storage.paths": [
+    "/"
+  ],
+  "menus.clock.weather.unit": "metric",
+  "menus.clock.weather.location": "Namur, Belgium",
+  "menus.clock.weather.key": "a6a29f1e45af4358b01203105263103",
+  "bar.layouts": {
+    "0": {
+      "left": [
+        "dashboard",
+        "workspaces",
+        "windowtitle"
+      ],
+      "middle": [
+        "media"
+      ],
+      "right": [
+        "customModules.kbLayout",
+        "volume",
+        "network",
+        "bluetooth",
+        "battery",
+        "systray",
+        "clock",
+        "notifications"
+      ]
+    },
+    "2": {
+      "left": [
+        "dashboard",
+        "workspaces",
+        "windowtitle"
+      ],
+      "middle": [
+        "media"
+      ],
+      "right": [
+        "customModules.kbLayout",
+        "volume",
+        "clock",
+        "notifications"
+      ]
+    }
+  },
+  "bar.customModules.kbLayout.labelType": "code",
+  "bar.customModules.kbLayout.leftClick": "hyprctl switchxkblayout all next",
+  "theme.bar.buttons.kbLayout.text": "#b57bee",
+  "theme.bar.buttons.kbLayout.icon": "#b57bee",
+  "theme.bar.buttons.kbLayout.background": "rgba(26, 26, 46, 0.85)",
+  "theme.bar.buttons.kbLayout.icon_background": "rgba(26, 26, 46, 0.85)"
+}
