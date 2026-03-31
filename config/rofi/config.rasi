@@ -1,0 +1,15 @@
+/* ╔══════════════════════════════════╗ */
+/* ║    Rofi — Colony Theme 💜        ║ */
+/* ╚══════════════════════════════════╝ */
+
+configuration {
+    modi: "drun,run";
+    show-icons: true;
+    icon-theme: "Papirus-Dark";
+    font: "JetBrainsMono Nerd Font 13";
+    display-drun: " Apps";
+    display-run: " Run";
+    drun-display-format: "{name}";
+}
+
+@theme "colony"

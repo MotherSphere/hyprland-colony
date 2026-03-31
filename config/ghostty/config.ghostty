@@ -1,0 +1,46 @@
+# Colony Theme 💜
+
+# Font
+font-family = JetBrainsMono Nerd Font
+font-size = 13
+
+# Transparence
+background-opacity = 0.88
+unfocused-split-opacity = 0.85
+
+# Couleurs — palette Colony
+background = 0d0d14
+foreground = cdd6f4
+
+# Palette (Catppuccin-inspired avec accent violet)
+palette = 0=#45475a
+palette = 1=#f38ba8
+palette = 2=#a6e3a1
+palette = 3=#f9e2af
+palette = 4=#9b59b6
+palette = 5=#c084fc
+palette = 6=#94e2d5
+palette = 7=#bac2de
+palette = 8=#585b70
+palette = 9=#f38ba8
+palette = 10=#a6e3a1
+palette = 11=#f9e2af
+palette = 12=#9b59b6
+palette = 13=#c084fc
+palette = 14=#94e2d5
+palette = 15=#a6adc8
+
+# Curseur
+cursor-color = 9b59b6
+cursor-style = bar
+cursor-style-blink = true
+
+# Fenêtre
+window-padding-x = 10
+window-padding-y = 8
+window-decoration = false
+gtk-titlebar = false
+
+# Misc
+confirm-close-surface = false
+copy-on-select = clipboard

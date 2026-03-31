@@ -1,0 +1,96 @@
+/* Colony Theme 💜 */
+
+* {
+    bg:           rgba(13, 13, 20, 0.88);
+    bg-alt:       rgba(30, 30, 46, 0.95);
+    fg:           #cdd6f4;
+    fg-dim:       rgba(205, 214, 244, 0.5);
+    accent:       #9b59b6;
+    accent-dim:   rgba(155, 89, 182, 0.25);
+    urgent:       #e74c3c;
+    transparent:  transparent;
+
+    background-color: @transparent;
+    text-color: @fg;
+}
+
+window {
+    width: 700px;
+    location: north;
+    anchor: north;
+    y-offset: 80px;
+    background-color: @bg;
+    border: 2px solid;
+    border-color: rgba(155, 89, 182, 0.4);
+    border-radius: 16px;
+    padding: 0;
+}
+
+mainbox {
+    background-color: @transparent;
+    children: [ inputbar, listview ];
+    spacing: 0;
+    padding: 0;
+}
+
+inputbar {
+    background-color: @bg-alt;
+    border-radius: 16px 16px 0 0;
+    padding: 14px 20px;
+    spacing: 10px;
+    children: [ prompt, entry ];
+}
+
+prompt {
+    background-color: @transparent;
+    text-color: @accent;
+    font: "JetBrainsMono Nerd Font Bold 13";
+}
+
+entry {
+    background-color: @transparent;
+    text-color: @fg;
+    placeholder: "Rechercher...";
+    placeholder-color: @fg-dim;
+}
+
+listview {
+    background-color: @transparent;
+    columns: 1;
+    lines: 8;
+    padding: 8px 0;
+    fixed-height: false;
+    dynamic: true;
+    scrollbar: false;
+}
+
+element {
+    background-color: @transparent;
+    padding: 10px 20px;
+    spacing: 12px;
+    border-radius: 10px;
+    margin: 1px 8px;
+}
+
+element normal.normal {
+    background-color: @transparent;
+    text-color: @fg;
+}
+
+element selected.normal {
+    background-color: @accent-dim;
+    text-color: white;
+    border: 0 0 0 3px solid;
+    border-color: @accent;
+}
+
+element-icon {
+    size: 24px;
+    background-color: @transparent;
+}
+
+element-text {
+    background-color: @transparent;
+    text-color: inherit;
+    vertical-align: 0.5;
+}
