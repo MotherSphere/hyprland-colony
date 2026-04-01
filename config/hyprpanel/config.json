@@ -4,7 +4,7 @@
   ],
   "menus.clock.weather.unit": "metric",
   "menus.clock.weather.location": "Namur, Belgium",
-  "menus.clock.weather.key": "a6a29f1e45af4358b01203105263103",
+  "menus.clock.weather.key": "YOUR_WEATHERAPI_KEY",
   "bar.layouts": {
     "0": {
       "left": [
